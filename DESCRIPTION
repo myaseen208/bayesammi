@@ -3,14 +3,14 @@ Type: Package
 Title: Bayesian Estimation of the Additive Main Effects and Multiplicative Interaction Model
 Version: 0.1.0
 Authors@R: c(
-              person(c("Muhammad", "Yaseen"),  email = "myaseen208@gmail.com", role = c("aut", "cre"))
-            , person(c("Jose", "Crossa"),  email = "j.crossa@cgiar.org", role = c("aut", "ctb"))
-            , person(c("Sergio", "Perez-Elizalde"),  email = "sergiop@colpos.mx", role = c("aut", "ctb"))
-            , person(c("Diego", "Jarquin"),  email = "diego.jarquin@gmail.com", role = c("aut", "ctb"))
-            , person(c("Jose", "Miguel", "Cotes"),  email = " ", role = c("aut", "ctb"))
-            , person(c("Kert", "Viele"),  email = " ", role = c("aut", "ctb"))
-            , person(c("Genzhou", "Liu"),  email = " ", role = c("aut", "ctb"))
-            , person(c("Paul", "L.", " Cornelius"),  email = " ", role = c("aut", "ctb"))
+              person(c("Muhammad", "Yaseen"),        email = "myaseen208@gmail.com",    role = c("aut", "cre"))
+            , person(c("Jose", "Crossa"),            email = "j.crossa@cgiar.org",      role = c("aut", "ctb"))
+            , person(c("Sergio", "Perez-Elizalde"),  email = "sergiop@colpos.mx",       role = c("aut", "ctb"))
+            , person(c("Diego", "Jarquin"),          email = "diego.jarquin@gmail.com", role = c("aut", "ctb"))
+            , person(c("Jose", "Miguel", "Cotes"),   email = " ",                       role = c("aut", "ctb"))
+            , person(c("Kert", "Viele"),             email = " ",                       role = c("aut", "ctb"))
+            , person(c("Genzhou", "Liu"),            email = " ",                       role = c("aut", "ctb"))
+            , person(c("Paul", "L.", " Cornelius"),  email = " ",                       role = c("aut", "ctb"))
             )
 Maintainer: Muhammad Yaseen <myaseen208@gmail.com>
 Description: Performs Bayesian estimation of the additive main effects and multiplicative interaction (AMMI) model. The method is explained in Crossa, J., Perez-Elizalde, S., Jarquin, D., Cotes, J.M., Viele, K., Liu, G. and Cornelius, P.L. (2011) (<doi:10.2135/cropsci2010.06.0343>).
