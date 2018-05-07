@@ -1,4 +1,4 @@
-# bayesammi : Bayesian Estimation of the Additive Main Effects and Multiplicative Interaction Model
+# bayesammi: Bayesian Estimation of the Additive Main Effects and Multiplicative Interaction Model
 
 ## Installation
 Use **devtools** to install the development version from Github:
