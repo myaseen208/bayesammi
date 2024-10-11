@@ -1,0 +1,111 @@
+---
+output: rmarkdown::github_document
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "",
+  fig.path = "inst/extdata/"
+)
+```
+
+## `bayesammi`: Bayesian Estimation of the Additive Main Effects and Multiplicative Interaction Model
+
+
+###### Version : [`r getNamespaceVersion("bayesammi")`](https://myaseen208.com/bayesammi/); Copyright (C) 2018-2024: License: [GPL-2|GPL-3](https://www.r-project.org/Licenses/)
+
+
+##### *Muhammad Yaseen^1,2^, Jose Crossa^3,4,5,6^, Sergio Perez-Elizalde^7^, Diego Jarquin^8^, Jose Miguel Cotes^9^, Kert Viele^10^, Genzhou Liu^11^, Paul L. Cornelius^12^*
+  
+
+1. School of Mathematical & Statistical Sciences, Clemson University, Clemson, South Carolina, USA
+
+2. Department of Mathematics & Statistics, University of Agriculture Faisalabad, Pakistan
+
+3. Department of Statistics and Operations Research, and Distinguish Scientist Fellowship Program, King Saud University, Riyah, Saudi Arabia
+
+4. AgCenter, Louisiana State University, Baton Rouge, Louisiana, USA
+
+5. Colegio de Postgraduados, Montecillos, Mexico
+
+6. International Maize and Wheat Improvement Center (CIMMYT), Mexico-Veracruz, Mexico 
+
+7. Colegio de Postgraduados, Montecillo,Estado de México 56230, México
+
+8. Agronomy Department, University of Florida, Gainesville, FL, United States
+
+9. Dep. de Ciencias Agrono ́ micas, Facultad de CienciasAgropecuarias, Univ. Nacional de Colombia, Calle 59A No 63–20 B11101-07, Medellı́n, Colombia
+
+10. Department of Statistics, University of Kentucky, Lexington, KY, 40546-03121, USA
+
+11. Auxilium Pharmaceuticals, Inc., PA, USA
+
+12. Department of Plant and Soil Sciences and Department of Statistics, University of Kentucky, Lexington, KY, 40546-03121, USA
+
+***
+
+[![minimal R version](https://img.shields.io/badge/R>%3D-3.5.0-6666ff.svg)](https://cran.r-project.org/)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version-last-release/bayesammi)](https://cran.r-project.org/package=bayesammi)
+[![rstudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/bayesammi?color=green)](https://CRAN.R-project.org/package=bayesammi)
+<!-- [![packageversion](https://img.shields.io/badge/Package%20version-0.2.3.3-orange.svg)](https://github.com/myaseen208/bayesammi) -->
+
+```{r, results='asis', echo=FALSE}
+dver <- ifelse(test = gsub("(.\\.)(\\d+)(\\..)", "", getNamespaceVersion("bayesammi")) != "",
+               yes = getNamespaceVersion("bayesammi"),
+               no = gsub("Version:\\s*", "", readLines(paste0("https://raw.githubusercontent.com/", "myaseen208/bayesammi", "/master/DESCRIPTION"))[grep("Version:", readLines(paste0("https://raw.githubusercontent.com/", "myaseen208/bayesammi", "/master/DESCRIPTION")))]))
+cat(paste("[![develVersion](https://img.shields.io/badge/devel%20version-", dver, "-orange.svg)](https://github.com/myaseen208/bayesammi)", sep = ""))
+```
+
+<!-- [![GitHub Download Count](https://github-basic-badges.herokuapp.com/downloads/myaseen208/bayesammi/total.svg)] -->
+[![Project Status: WIP](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
+[![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![Last-changedate](https://img.shields.io/badge/last%20change-`r gsub('-', '--', Sys.Date())`-yellowgreen.svg)](https://github.com/myaseen208/bayesammi)
+***
+
+## Description
+`r gsub("(<doi:)(.+)(>)", "[doi:\\2](https://doi.org/\\2)", gsub("\\n", " ", packageDescription("bayesammi", fields = "Description")))`
+
+## Installation
+The package can be installed from CRAN as follows:
+
+```{r, eval=FALSE}
+install.packages("bayesammi", dependencies = TRUE)
+```
+
+
+
+The development version can be installed from github as follows:
+
+```{r, eval=FALSE}
+if (!require("remotes")) install.packages("remotes")
+remotes::install_github("myaseen208/bayesammi")
+```
+
+
+
+## What's new
+To know whats new in this version type:
+
+```{r, eval=FALSE}
+news(package = "bayesammi")
+```
+
+## Links
+
+[CRAN page](https://cran.r-project.org/package=bayesammi)
+
+[Github page](https://github.com/myaseen208/bayesammi)
+
+[Documentation website](https://myaseen208.com/bayesammi/)
+
+
+
+## Citing `bayesammi`
+To cite the methods in the package use:
+
+
+```{r, comment = ""}
+citation("bayesammi")
+```

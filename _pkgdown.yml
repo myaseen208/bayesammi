@@ -1,0 +1,72 @@
+url: https://myaseen208.com/bayesammi/
+
+home:
+  title: bayesammi
+  description: Bayesian Estimation of the Additive Main Effects and Multiplicative Interaction Model
+
+template:
+  bootstrap: 5
+  params:
+    bootswatch: united
+    ganalytics: UA-116716530-2
+    docsearch:
+      api_key: bdafb7ea4490644e670f470ee3ef537f
+      index_name: bayesammi
+
+
+
+toc:
+  depth: 3
+
+authors:
+  Muhammmad Yaseen:
+    href: https://www.researchgate.net/profile/Muhammad_Yaseen10
+  Jose Crossa:
+    href: https://www.researchgate.net/profile/Jose-Crossa
+  Sergio Perez-Elizalde:
+    href: https://www.researchgate.net/profile/Sergio-Perez-Elizalde
+  Diego Jarquin:
+    href: https://www.researchgate.net/profile/Diego-Jarquin
+  Jose Miguel Cotes:
+    href: https://www.researchgate.net/profile/Jose-Miguel-Cotes-Torres
+  Kert Viele:
+    href: https://www.berryconsultants.com/about-us/kert-viele/
+  Genzhou Liu:
+  Paul L. Cornelius:
+    href: https://pss.ca.uky.edu/news-story/professor-emeritus-paul-cornelius
+
+
+
+development:
+  mode: unreleased
+
+
+navbar:
+  title: bayesammi
+  type: default
+  left:
+    - icon: fa-home fa-lg
+      text: Home
+      href: index.html
+    - icon: fa-code
+      text: Reference
+      href: reference/index.html
+    - icon: fa-newspaper-o
+      text: News
+      href: news/index.html
+  right:
+    - text: "GitHub"
+      href: https://github.com/myaseen208/bayesammi
+      icon: fa-github
+      aria-label: "GitHub repository"
+    - text: "ResearchGate"
+      href: https://www.researchgate.net/profile/Muhammad_Yaseen10
+      icon: fa-github
+      aria-label: "ResearchGate"
+    - text: "Twitter"
+      href: https://twitter.com/myaseen208
+      icon: "fab fa-twitter"
+      aria-label: "Twitter"
+
+reference:
+
