@@ -20,27 +20,16 @@ knitr::opts_chunk$set(
   
 
 1. School of Mathematical & Statistical Sciences, Clemson University, Clemson, South Carolina, USA
-
 2. Department of Mathematics & Statistics, University of Agriculture Faisalabad, Pakistan
-
 3. Department of Statistics and Operations Research, and Distinguish Scientist Fellowship Program, King Saud University, Riyah, Saudi Arabia
-
 4. AgCenter, Louisiana State University, Baton Rouge, Louisiana, USA
-
 5. Colegio de Postgraduados, Montecillos, Mexico
-
 6. International Maize and Wheat Improvement Center (CIMMYT), Mexico-Veracruz, Mexico 
-
 7. Colegio de Postgraduados, Montecillo,Estado de México 56230, México
-
 8. Agronomy Department, University of Florida, Gainesville, FL, United States
-
 9. Dep. de Ciencias Agrono ́ micas, Facultad de CienciasAgropecuarias, Univ. Nacional de Colombia, Calle 59A No 63–20 B11101-07, Medellı́n, Colombia
-
 10. Department of Statistics, University of Kentucky, Lexington, KY, 40546-03121, USA
-
 11. Auxilium Pharmaceuticals, Inc., PA, USA
-
 12. Department of Plant and Soil Sciences and Department of Statistics, University of Kentucky, Lexington, KY, 40546-03121, USA
 
 ***
