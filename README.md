@@ -1,7 +1,7 @@
 
 ## `bayesammi`: Bayesian Estimation of the Additive Main Effects and Multiplicative Interaction Model
 
-###### Version : [0.1.0](https://myaseen208.com/bayesammi/); Copyright (C) 2018-2024: License: [GPL-2\|GPL-3](https://www.r-project.org/Licenses/)
+###### Version : [0.3.0](https://myaseen208.com/bayesammi/); Copyright (C) 2018-2024: License: [GPL-2\|GPL-3](https://www.r-project.org/Licenses/)
 
 ##### *Muhammad Yaseen<sup>1,2</sup>, Jose Crossa<sup>3,4,5,6</sup>, Sergio Perez-Elizalde<sup>7</sup>, Diego Jarquin<sup>8</sup>, Jose Miguel Cotes<sup>9</sup>, Kert Viele<sup>10</sup>, Genzhou Liu<sup>11</sup>, Paul L. Cornelius<sup>12</sup>*
 
@@ -46,7 +46,7 @@ downloads](https://cranlogs.r-pkg.org/badges/grand-total/bayesammi?color=green)]
 [![Project Status:
 WIP](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
-[![Last-changedate](https://img.shields.io/badge/last%20change-2024--10--11-yellowgreen.svg)](https://github.com/myaseen208/bayesammi)
+[![Last-changedate](https://img.shields.io/badge/last%20change-2024--11--19-yellowgreen.svg)](https://github.com/myaseen208/bayesammi)
 \*\*\*
 
 ## Description
@@ -94,22 +94,18 @@ To cite the methods in the package use:
 
 ``` r
 citation("bayesammi")
-To cite package 'bayesammi' in publications use:
+Please, support this project by citing it in your publications!
 
-  Muhammad Yaseen, Jose Crossa, Sergio Perez-Elizalde, Diego Jarquin,
-  Jose Miguel Cotes, Kert Viele, Genzhou Liu, Paul L. Cornelius (2018).
-  _bayesammi: Bayesian Estimation of the Additive Main Effects and
-  Multiplicative Interaction Model_. R package version 0.1.0,
-  <https://CRAN.R-project.org/package=bayesammi>.
+  Yaseen M, Crossa J, Perez-Elizalde S, Jarquin D, Cotes JM, Viele K,
+  Liu G, Cornelius PL (2018). _bayesammi: Bayesian Estimation of the
+  Additive Main Effects and Multiplicative Interaction Model_.
 
 A BibTeX entry for LaTeX users is
 
   @Manual{,
-    title = {bayesammi: Bayesian Estimation of the Additive Main Effects and
-Multiplicative Interaction Model},
-    author = {{Muhammad Yaseen} and {Jose Crossa} and {Sergio Perez-Elizalde} and {Diego Jarquin} and {Jose Miguel Cotes} and {Kert Viele} and {Genzhou Liu} and {Paul L. Cornelius}},
+    title = {bayesammi: Bayesian Estimation of the Additive Main Effects and Multiplicative Interaction Model},
+    author = {Muhammad Yaseen and Jose Crossa and Sergio Perez-Elizalde and Diego Jarquin and Jose Miguel Cotes and Kert Viele and Genzhou Liu and Paul L. Cornelius},
     year = {2018},
-    note = {R package version 0.1.0},
-    url = {https://CRAN.R-project.org/package=bayesammi},
+    journal = {The Comprehensive R Archive Network (CRAN)},
   }
 ```
