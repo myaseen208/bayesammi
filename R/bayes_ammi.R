@@ -496,14 +496,22 @@ fm1   <-
                   rbind,
                   lapply(1:nrow(alphas1), function(i) {
                     matrix_row <- matrix(as.numeric(alphas1[i, ]), ncol = k, byrow = TRUE)
-                    cbind(.nIter = rep(i, nrow(matrix_row)), matrix_row)
+                    cbind(
+                       .nIter = rep(i, nrow(matrix_row))
+                      , Gen = rep(1:g, times = .nIter)
+                      , matrix_row
+                      )
                   })
                 )
     gammas1  <-  do.call(
                   rbind,
                   lapply(1:nrow(gammas1), function(i) {
                     matrix_row <- matrix(as.numeric(gammas1[i, ]), ncol = k, byrow = TRUE)
-                    cbind(.nIter = rep(i, nrow(matrix_row)), matrix_row)
+                    cbind(
+                        .nIter = rep(i, nrow(matrix_row))
+                      , Env = rep(1:e, times = .nIter)
+                      , matrix_row
+                      )
                   })
                 )
 
@@ -513,8 +521,8 @@ fm1   <-
     colnames(tao1)     <- paste0("tao", 1:g)
     colnames(delta1)   <- paste0("delta", 1:e)
     colnames(lambdas1) <- paste0("lambdas", 1:k)
-    colnames(alphas1)  <- c(".nIter", paste0("alphas", 1:k))
-    colnames(gammas1)  <- c(".nIter", paste0("gammas", 1:k))
+    colnames(alphas1)  <- c(".nIter", "Gen", paste0("alphas", 1:k))
+    colnames(gammas1)  <- c(".nIter", "Env", paste0("gammas", 1:k))
 
     alphas0  <-  tibble::as_tibble(alphas0)
     gammas0  <-  tibble::as_tibble(gammas0)
