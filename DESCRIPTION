@@ -11,6 +11,7 @@ Authors@R: c(
             , person(c("Kert", "Viele"),             email = " kert@berryconsultants.net", role = c("aut", "ctb"))
             , person(c("Genzhou", "Liu"),            email = " ",                          role = c("aut", "ctb"))
             , person(c("Paul", "L.", " Cornelius"),  email = " ",                          role = c("aut", "ctb"))
+            , person(c("Julian", "Garcia", "Abadillo Velasco"),  email = "garciaabadillo.j@ufl.edu", role = c("aut", "ctb"))
             )
 Maintainer: Muhammad Yaseen <myaseen208@gmail.com>
 Description: Performs Bayesian estimation of the additive main effects and multiplicative interaction (AMMI) model. The method is explained in Crossa, J., Perez-Elizalde, S., Jarquin, D., Cotes, J.M., Viele, K., Liu, G. and Cornelius, P.L. (2011) (<doi:10.2135/cropsci2010.06.0343>).
@@ -18,10 +19,13 @@ Depends: R (>= 3.1)
 Imports: 
   dplyr,
   ggplot2,
+  ggrepel,
+  ks,
   lme4,
   magrittr,
   MASS,
   mvtnorm,
+  purrr,
   rlang,
   rstiefel,
   scales,

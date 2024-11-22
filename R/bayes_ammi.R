@@ -263,23 +263,29 @@
 #' print(BiplotBayesAMMI)
 #'
 #'
-# if(getRversion() >= "2.15.1"){
-#   utils::globalVariables(
-#     c(
-#       "alphas0"
-#       , "c0"
-#       , "delta0"
-#       , "gammas0"
-#       , "lambdas0"
-#       , "ge_means0"
-#       , "mu0"
-#       , "n0"
-#       , "tao0"
-#       , "tau0"
-#     )
-#   )
-# }
-#
+if(getRversion() >= "2.15.1"){
+  utils::globalVariables(
+    c(
+      "alphas0"
+      , "c0"
+      , "delta0"
+      , "gammas0"
+      , "lambdas0"
+      , "ge_means0"
+      , "mu0"
+      , "n0"
+      , "tao0"
+      , "tau0"
+        , "prob"
+        , "byplot"
+        , "ID"
+        , "x"
+        , "y"
+        , "stable"
+        , "name"
+    )
+  )
+}
 
 
 bayes_ammi <- function(.data, .y, .gen, .env, .rep, .nIter){

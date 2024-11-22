@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 ###### Version : [`r getNamespaceVersion("bayesammi")`](https://myaseen208.com/bayesammi/); Copyright (C) 2018-2024: License: [GPL-2|GPL-3](https://www.r-project.org/Licenses/)
 
 
-##### *Muhammad Yaseen^1,2^, Jose Crossa^3,4,5,6^, Sergio Perez-Elizalde^7^, Diego Jarquin^8^, Jose Miguel Cotes^9^, Kert Viele^10^, Genzhou Liu^11^, Paul L. Cornelius^12^*
+##### *Muhammad Yaseen^1,2^, Jose Crossa^3,4,5,6^, Sergio Perez-Elizalde^7^, Diego Jarquin^8^, Jose Miguel Cotes^9^, Kert Viele^10^, Genzhou Liu^11^, Paul L. Cornelius^12^, Julian Garcia Abadillo Velasco^12^*
   
 
 1. School of Mathematical & Statistical Sciences, Clemson University, Clemson, South Carolina, USA
