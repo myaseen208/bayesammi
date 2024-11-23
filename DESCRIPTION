@@ -1,7 +1,7 @@
 Package: bayesammi
 Type: Package
 Title: Bayesian Estimation of the Additive Main Effects and Multiplicative Interaction Model
-Version: 0.3.0
+Version: 0.4.0
 Authors@R: c(
               person(c("Muhammad", "Yaseen"),        email = "myaseen208@gmail.com",       role = c("aut", "cre"))
             , person(c("Jose", "Crossa"),            email = "j.crossa@cgiar.org",         role = c("aut", "ctb"))
@@ -35,6 +35,9 @@ Imports:
   tmvtnorm
 License: GPL-2
 Encoding: UTF-8
+URL: https://myaseen208.com/bayesammi/
+     https://CRAN.R-project.org/package=bayesammi
+BugReports: https://github.com/myaseen208/bayesammi/issues
 LazyData: true
 RoxygenNote: 7.3.2
 Note: 1. School of Mathematical & Statistical Sciences, Clemson University, Clemson, South Carolina, USA

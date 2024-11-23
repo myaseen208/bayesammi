@@ -3,7 +3,7 @@
 
 ###### Version : [0.3.0](https://myaseen208.com/bayesammi/); Copyright (C) 2018-2024: License: [GPL-2\|GPL-3](https://www.r-project.org/Licenses/)
 
-##### *Muhammad Yaseen<sup>1,2</sup>, Jose Crossa<sup>3,4,5,6</sup>, Sergio Perez-Elizalde<sup>7</sup>, Diego Jarquin<sup>8</sup>, Jose Miguel Cotes<sup>9</sup>, Kert Viele<sup>10</sup>, Genzhou Liu<sup>11</sup>, Paul L. Cornelius<sup>12</sup>, Julian Garcia Abadillo Velasco<sup>12</sup>*
+##### *Muhammad Yaseen<sup>1,2</sup>, Jose Crossa<sup>3,4,5,6</sup>, Sergio Perez-Elizalde<sup>7</sup>, Diego Jarquin<sup>8</sup>, Jose Miguel Cotes<sup>9</sup>, Kert Viele<sup>10</sup>, Genzhou Liu<sup>11</sup>, Paul L. Cornelius<sup>12</sup>, Julian Garcia Abadillo Velasco<sup>8</sup>*
 
 1.  School of Mathematical & Statistical Sciences, Clemson University,
     Clemson, South Carolina, USA
@@ -46,7 +46,7 @@ downloads](https://cranlogs.r-pkg.org/badges/grand-total/bayesammi?color=green)]
 [![Project Status:
 WIP](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
 [![lifecycle](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
-[![Last-changedate](https://img.shields.io/badge/last%20change-2024--11--22-yellowgreen.svg)](https://github.com/myaseen208/bayesammi)
+[![Last-changedate](https://img.shields.io/badge/last%20change-2024--11--23-yellowgreen.svg)](https://github.com/myaseen208/bayesammi)
 \*\*\*
 
 ## Description
