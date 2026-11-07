@@ -1,72 +1,135 @@
 url: https://myaseen208.com/bayesammi/
-
-home:
-  title: bayesammi
-  description: Bayesian Estimation of the Additive Main Effects and Multiplicative Interaction Model
+title: Bayesian Estimation of the Additive Main Effects and Multiplicative Interaction Model
 
 template:
   bootstrap: 5
-  params:
-    bootswatch: united
-    ganalytics: UA-116716530-2
-    docsearch:
-      api_key: bdafb7ea4490644e670f470ee3ef537f
-      index_name: bayesammi
+  bootswatch: flatly
+  math-rendering: mathjax
+  bslib:
+    base_font:
+      google: Crimson Pro
+    heading_font:
+      google: Crimson Pro
+    code_font:
+      google: JetBrains Mono
+    bg: "#ffffff"
+    fg: "#1a1a1a"
+    primary: "#2c5f8a"
+    link-color: "#2c5f8a"
 
-
-
-toc:
-  depth: 3
-
-authors:
-  Muhammmad Yaseen:
-    href: https://www.researchgate.net/profile/Muhammad_Yaseen10
-  Jose Crossa:
-    href: https://www.researchgate.net/profile/Jose-Crossa
-  Sergio Perez-Elizalde:
-    href: https://www.researchgate.net/profile/Sergio-Perez-Elizalde
-  Diego Jarquin:
-    href: https://www.researchgate.net/profile/Diego-Jarquin
-  Jose Miguel Cotes:
-    href: https://www.researchgate.net/profile/Jose-Miguel-Cotes-Torres
-  Kert Viele:
-    href: https://www.berryconsultants.com/about-us/kert-viele/
-  Genzhou Liu:
-  Paul L. Cornelius:
-    href: https://pss.ca.uky.edu/news-story/professor-emeritus-paul-cornelius
-
-
-
-development:
-  mode: unreleased
-
+home:
+  sidebar:
+    structure: [links, license, citation, authors, dev]
 
 navbar:
-  title: bayesammi
-  type: default
-  left:
-    - icon: fa-home fa-lg
-      text: Home
-      href: index.html
-    - icon: fa-code
-      text: Reference
-      href: reference/index.html
-    - icon: fa-newspaper-o
-      text: News
-      href: news/index.html
-  right:
-    - text: "GitHub"
-      href: https://github.com/myaseen208/bayesammi
-      icon: fa-github
-      aria-label: "GitHub repository"
-    - text: "ResearchGate"
-      href: https://www.researchgate.net/profile/Muhammad_Yaseen10
-      icon: fa-github
-      aria-label: "ResearchGate"
-    - text: "Twitter"
-      href: https://twitter.com/myaseen208
-      icon: "fab fa-twitter"
-      aria-label: "Twitter"
+  structure:
+    left:  [home, reference, articles, pdf, news]
+    right: [search, github]
+  components:
+    pdf:
+      text: PDF
+      href: pdf/index.html
+
+articles:
+  - title: Getting started
+    navbar: Getting started
+    contents:
+      - bayesammi_01_getting_started
+      - bayesammi_02_theory
+  - title: The published analysis
+    navbar: Published analysis
+    contents:
+      - bayesammi_03_crossa2011
+  - title: Methods
+    navbar: Methods
+    contents:
+      - bayesammi_04_biplots
+      - bayesammi_05_convergence
+      - bayesammi_06_priors_terms
+  - title: Beyond the article
+    navbar: Extensions
+    contents:
+      - bayesammi_07_unbalanced_het
+      - bayesammi_08_gge
+      - bayesammi_09_decisions
+  - title: Bayesian stability analysis
+    navbar: Stability
+    contents:
+      - bayesammi_10_stability_models
+      - bayesammi_11_stability_indices
+  - title: The application
+    navbar: Application
+    contents:
+      - bayesammi_12_app
+  - title: Validation, interpretation and references
+    navbar: Validation and references
+    contents:
+      - bayesammi_13_validation
+      - bayesammi_14_interpretation
+      - bayesammi_15_references
 
 reference:
+  - title: Bayesian AMMI
+    desc: Priors, the Gibbs sampler of Crossa et al. (2011) and the biplot with HPD regions.
+    contents:
+      - bam_priors
+      - bayes_ammi
+      - biplots
+  - title: Decisions for breeders
+    desc: Predictions, winners, probabilities of superior performance and stability, ranks and stability measures.
+    contents:
+      - bam_predict
+      - bam_winners
+      - bam_superiority
+      - bam_ranks
+      - bam_stability
+  - title: Bayesian stability analysis
+    desc: Finlay-Wilkinson, Eberhart-Russell and Shukla models; posterior distributions of stability indices.
+    contents:
+      - bayes_stability
+      - bam_stab_priors
+      - bam_indices
+      - bam_ammi_indices
+  - title: Model choice
+    desc: DIC and WAIC, posterior predictive checks and draws for posterior, bayesplot and coda.
+    contents:
+      - bam_compare
+      - bam_ppc
+      - "bam-draws"
+  - title: Application
+    contents:
+      - bam_app
+  - title: Interpretation and references
+    contents:
+      - bam_interpret
+      - bam_cite
+  - title: Tables and least-squares AMMI
+    desc: Cell means and variances, main and interaction effects, least-squares AMMI and the mixed model.
+    contents:
+      - ge_mean
+      - ge_var
+      - g_eff
+      - e_eff
+      - ge_eff
+      - ge_ammi
+      - ge_model
+  - title: Matrices
+    contents:
+      - matrix_k
+      - orthnorm
+  - title: Data
+    contents:
+      - Maiz
+  - title: Results and utilities
+    contents:
+      - "bam-methods"
+      - bam_theme
+      - bam_save
+      - bam_notation
+      - bam_reference
+      - "bayesammi-package"
 
+footer:
+  structure:
+    left: developed_by
+    right: built_with

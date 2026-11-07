@@ -1,8 +1,23 @@
-pandoc: '3.2'
-pkgdown: 2.1.1.9000
-pkgdown_sha: 0a18bc718640aee7160a0ebbcdef5ecaae2ac4a4
-articles: {}
-last_built: 2024-10-11T22:02Z
+pandoc: '3.10'
+pkgdown: 2.2.1
+pkgdown_sha: ~
+articles:
+  bayesammi_01_getting_started: bayesammi_01_getting_started.html
+  bayesammi_02_theory: bayesammi_02_theory.html
+  bayesammi_03_crossa2011: bayesammi_03_crossa2011.html
+  bayesammi_04_biplots: bayesammi_04_biplots.html
+  bayesammi_05_convergence: bayesammi_05_convergence.html
+  bayesammi_06_priors_terms: bayesammi_06_priors_terms.html
+  bayesammi_07_unbalanced_het: bayesammi_07_unbalanced_het.html
+  bayesammi_08_gge: bayesammi_08_gge.html
+  bayesammi_09_decisions: bayesammi_09_decisions.html
+  bayesammi_10_stability_models: bayesammi_10_stability_models.html
+  bayesammi_11_stability_indices: bayesammi_11_stability_indices.html
+  bayesammi_12_app: bayesammi_12_app.html
+  bayesammi_13_validation: bayesammi_13_validation.html
+  bayesammi_14_interpretation: bayesammi_14_interpretation.html
+  bayesammi_15_references: bayesammi_15_references.html
+last_built: 2026-11-07T06:25Z
 urls:
   reference: https://myaseen208.com/bayesammi/reference
   article: https://myaseen208.com/bayesammi/articles
